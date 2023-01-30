@@ -87,11 +87,29 @@ nav ul li a:hover{
 
 .main-content{
     background: white;
-    height: 800px;
+    height: 1200px;
     width: 82%;
     display: flex;
     margin-left: 160px;
     border-bottom: #333 solid 1px;
+}
+
+.main-content img{
+    width: 1332px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -40%);
+    height: 847px;
+}
+
+.text{
+    color: #ff764d;
+    font-size: 150px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
