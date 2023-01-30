@@ -63,6 +63,14 @@ nav ul li a:hover{
     
 }
 
+.hiddenText{
+    display: none;
+}
+
+.right-side{
+    margin-left: 200px;
+}
+
 .checkbtn{
     font-size: 30px;
     color: black;
@@ -77,11 +85,26 @@ nav ul li a:hover{
     display: none;
 }
 
+.main-content{
+    background: white;
+    height: 800px;
+    width: 82%;
+    display: flex;
+    margin-left: 160px;
+    border-bottom: #333 solid 1px;
+}
+
 
 @media (max-width: 952px){
     label.logo{
         font-size: 25px;
         padding-left: 50px;
+    }
+
+    nav{
+        width: 100%;
+        display: flex;
+        margin: auto;
     }
 
     nav ul li a{
@@ -93,10 +116,18 @@ nav ul li a:hover{
 
     nav{
         width: 100%;
+        background:#0000ff;
+        border: none;
         display: flex;
+        margin: auto;
     }
 
     .checkbtn{
+        display: block;
+        color: white;
+    }
+
+    .hiddenText{
         display: block;
     }
 
@@ -106,7 +137,7 @@ nav ul li a:hover{
         height: 100vh;
         background: #0000ff;
         top: 80px;
-        left: -100%;
+        left: -200%;
         text-align: left;
         transition: all .5s;
     }
@@ -119,6 +150,10 @@ nav ul li a:hover{
 
     nav ul li a{
         font-size: 20px;
+        color: white;
+    }
+
+    .blueText{
         color: white;
     }
 
