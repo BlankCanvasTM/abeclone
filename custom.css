@@ -67,9 +67,6 @@ nav ul li a:hover{
     display: none;
 }
 
-.right-side{
-    margin-left: 200px;
-}
 
 .checkbtn{
     font-size: 30px;
@@ -87,7 +84,7 @@ nav ul li a:hover{
 
 .main-content{
     background: white;
-    height: 1200px;
+    height: 3000px;
     width: 82%;
     display: flex;
     margin-left: 160px;
@@ -103,6 +100,16 @@ nav ul li a:hover{
     height: 847px;
 }
 
+.main-content a{
+    padding: 15px;
+    font-size: 15px;
+    color: black;
+}
+
+.main-content .orangeText{
+    color: orange;
+}
+
 .text{
     color: #ff764d;
     font-size: 150px;
@@ -110,6 +117,20 @@ nav ul li a:hover{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+.main-content .container p{
+    position: relative;
+    left: 50%;
+    top: 85%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    color: black;
+}
+
+.main-content .paragraphLink{
+    font-size: 35px;
+    color: #0000ff;
 }
 
 
