@@ -122,18 +122,20 @@ nav ul li a:hover{
 .main-content .container h6{
     position: relative;
     left: 39%;
-    top: 33%;
+    top: 36%;
     transform: translate(-50%, -50%);
-    font-size: 35px;
+    font-size: 28px;
+    text-align: center;
     color: black;
 }
 
 .main-content .container p{
     position: relative;
     left: 39%;
-    top: 33%;
+    top: 37%;
     transform: translate(-50%, -50%);
-    font-size: 25px;
+    font-size: 20px;
+    text-align: center;
     color: black;
 }
 
